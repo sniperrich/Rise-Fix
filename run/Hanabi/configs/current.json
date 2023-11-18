@@ -1,0 +1,660 @@
+{
+  "KeepSprint": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "PotionDisplay": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Background": false,
+    "Blur": false,
+    "BackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 80
+    }
+  },
+  "MotionBlur": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "FrameMultiplier": 0.5
+  },
+  "Nuker": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Mode": "Bed",
+    "Reach": 6.0,
+    "Delay": 120.0,
+    "Instant": false
+  },
+  "SpeedMine": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Speed": 0.8,
+    "PacketSpeed": 1.6,
+    "Pot Boost": false,
+    "Extra PP": false
+  },
+  "FullBright": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "MurdererFinder": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "Eagle": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "OldAnimation": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "OldBlock": false,
+    "OldRod": false,
+    "BlockHit": false,
+    "OldBow": false,
+    "OldSwing": false
+  },
+  "Coordinates": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  },
+  "DragonWings": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 255
+    },
+    "Colored": false,
+    "Chroma": false,
+    "Scale": 100.0
+  },
+  "Disabler": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "LagBackChecker": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Delay": 1000.0
+  },
+  "TargetStrafe": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Strafe Range": 2.0,
+    "Space Toggled": true,
+    "Void Check": true,
+    "Behind": false,
+    "Direction": true,
+    "Render": true,
+    "Hurt": true
+  },
+  "ItemPhysics": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "ArmorStatus": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Damage": false
+  },
+  "Sprint": {
+    "stage": false,
+    "key": 23,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Always": false
+  },
+  "InvMove": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "Tracers": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "BlockOverlay": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "FillColor": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 50
+    },
+    "OutlineColor": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "Outlined": true,
+    "Fill": false,
+    "Chroma": false,
+    "ThroughBlock": true
+  },
+  "KillAura": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Auto Block": "Watchdog",
+    "Priority": "Health",
+    "MinCPS": 9,
+    "MaxCPS": 11,
+    "Range": 4.2,
+    "Max Targets": 3.0,
+    "Keep Sprint": true,
+    "Player": true,
+    "Mob": false,
+    "Animal": false,
+    "Teams": true,
+    "OnlyOnAim": false,
+    "ESP": true,
+    "TargetHUD": true,
+    "TargetESP": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "HoverPitch": 100.0,
+    "HoverYaw": 50.0,
+    "BlockRange": 3.0,
+    "Invisible": true,
+    "DisAdventage": true
+  },
+  "Chams": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "Crosshair": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "dynamic": true,
+    "gap": 5.0,
+    "width": 1.0,
+    "size": 7.0,
+    "Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  },
+  "Scaffold": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Place Delay": 0.0,
+    "Diagonal": true,
+    "Slient": true,
+    "No Swing": true,
+    "Safe Walk": true,
+    "Only Ground": true,
+    "Sprint": true,
+    "Sneak": true,
+    "AutoJump": true,
+    "Move Motify": 1.0,
+    "Ray Cast": true,
+    "ESP": true,
+    "Sneak Tick": 1,
+    "packetSneak": false,
+    "packetSpirnt": false,
+    "Move Tower": true,
+    "Timer Speed": 1.0,
+    "Rotation Speed": 6.0
+  },
+  "Notification": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "ShowModule Toggle": true
+  },
+  "ClickGui": {
+    "stage": false,
+    "key": 54,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "PauseGame": true
+  },
+  "Fly": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Flight mode": "Motion"
+  },
+  "InventoryManager": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Keep Tools": true,
+    "Archery": true,
+    "Inventory Only": false,
+    "Delay": 80.0
+  },
+  "Scoreboard": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "BackGround": true,
+    "Blur": true,
+    "Numbers": false,
+    "Background Color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 150
+    }
+  },
+  "HUD": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "ShowLogo": false,
+    "ArrayList": true,
+    "ArrayListShadow": true,
+    "Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "Information": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "NoRender": true,
+    "Rect": true,
+    "RectColor": {
+      "red": 0,
+      "green": 149,
+      "blue": 255,
+      "alpha": 255
+    }
+  },
+  "ArrowESP": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Size": 10.0,
+    "Radius": 45.0,
+    "Players": true,
+    "Animals": true,
+    "Mobs": false,
+    "Invisibles": false,
+    "Passives": true,
+    "Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 100
+    }
+  },
+  "AntiBot": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Mode": "Hypixel",
+    "AntiBot": true
+  },
+  "Teams": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "MoreParticles": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "CritParticles": 2,
+    "SharpnessParticles": 1,
+    "BloodParticles": 0,
+    "HitSound": false
+  },
+  "NoSlow": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "No Slow": "Watchdog"
+  },
+  "AimAssistant": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "ChestStealer": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Trash": false,
+    "Delay": 80.0
+  },
+  "Reach": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Range": 3.6
+  },
+  "Speed": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Speed": "Watchdog",
+    "Damage": false,
+    "BoostDelay": 2000.0
+  },
+  "ESP": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Mode": "Box",
+    "ESP": false,
+    "Esp Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 100
+    }
+  },
+  "Blink": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "AntiFall": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "FallDistance": 10.0,
+    "Delay": 800.0,
+    "OnlyVoid": true,
+    "0 DMG": true
+  },
+  "SnapLook": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "FastPlace": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "NameTags": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Invisible": false,
+    "Armor": false
+  },
+  "MemoryManager": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "AutoGC": true,
+    "GCLimit": 60,
+    "FastLoad": true,
+    "display": false
+  },
+  "Velocity": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Check": true
+  },
+  "TimeChanger": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Time": 14000
+  },
+  "Timer": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Timer": 1.2
+  },
+  "KeyStrokes": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "ShowWASD": false,
+    "ArrowKeys": false,
+    "ShowMouseButtons": false,
+    "ShowCPS": false,
+    "ShowCPSOnButtons": false,
+    "ShowSpacebar": false,
+    "ShowSneak": false,
+    "ShowFPS": false,
+    "ShowPing": false,
+    "Chroma": true,
+    "KeyBackground": true,
+    "FadeTime": 1,
+    "Color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "PressedColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 255
+    },
+    "BackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 80
+    },
+    "BackgroundPressedColor": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 100
+    }
+  },
+  "ClientSettings": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "BetterInventory": true,
+    "BetterButton": true,
+    "ChatBackground": true,
+    "ScreenAnimation": true,
+    "ChunkAnimation": true,
+    "ChatBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 125
+    }
+  },
+  "TNTTimer": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "HideAndSeek": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0
+  },
+  "Xray": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Tracers": false,
+    "ESP": false
+  },
+  "CustomFov": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "NoBowFov": true,
+    "NoSpeedFov": true
+  },
+  "AutoGG": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "AutoScreenShot": true,
+    "AD": true,
+    "AutoPlay": true
+  },
+  "AutoArmor": {
+    "stage": false,
+    "key": 0,
+    "x": 0.0,
+    "y": 0.0,
+    "scale": 1.0,
+    "Sort In Inv": false,
+    "No Move": false,
+    "Delay": 150.0
+  }
+}

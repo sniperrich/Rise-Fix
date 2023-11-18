@@ -1,0 +1,1199 @@
+{
+  "AutoClicker": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "MaxCPS": 8.0,
+      "MinCPS": 8.0,
+      "CheckBlock": true,
+      "CheckUsingItem": true,
+      "AutoRelease": true
+    }
+  },
+  "KillAura": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "SelectMode": "First",
+      "RotationMode": "Normal",
+      "AutoBlockMode": "FastSwitch",
+      "AttackTiming": "Pre",
+      "SwingTiming": "BeforeAttack",
+      "ClickDelayMode": "CPS",
+      "SortMode": "Distance",
+      "BlockRange": 5.0,
+      "SwingRange": 4.5,
+      "Range": 4.0,
+      "MaxCps": 6.0,
+      "MinCps": 6.0,
+      "MaxClickDelay": 125.0,
+      "MinClickDelay": 125.0,
+      "SwitchTime": 1000.0,
+      "MissRate": 0.0,
+      "RotationDelay": 0.0,
+      "RotationSpeed": 180.0,
+      "MultiMaxTarget": 3.0,
+      "Attacks": 1.0,
+      "AutoBlock": false,
+      "RayCast": false,
+      "NoSprintWhileAttack": false,
+      "ArmorBreaker": false,
+      "Interact": false,
+      "Silence": true,
+      "KeepSprint": true,
+      "MultiNoLimit": false,
+      "ZombieDetect": false,
+      "TargetHUD": false,
+      "AutoDisable": false,
+      "Inventory": true,
+      "ESP": true,
+      "ThroughWalls": true,
+      "EntityFilter": {
+        "Player": true,
+        "Monster": true,
+        "Animal": false,
+        "Villager": false,
+        "Invisibility": false,
+        "NPC": false,
+        "Alive": true
+      }
+    }
+  },
+  "Velocity": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Normal",
+      "Vertical": 0.0,
+      "Horizontal": 0.0,
+      "ExplosionPacket": false
+    }
+  },
+  "Critical": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Packet",
+      "Delay": 100.0,
+      "MotionY": 0.1,
+      "CheckOnGround": true
+    }
+  },
+  "FastThrow": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 0.0
+    }
+  },
+  "FastBow": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "Trigger": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "CPS": 6.0
+    }
+  },
+  "Reach": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Range": 3.0
+    }
+  },
+  "HitBox": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Size": 0.1
+    }
+  },
+  "LegitAura": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Range": 4.0,
+      "MaxCps": 6.0,
+      "MinCps": 6.0,
+      "RotationDelay": 0.0,
+      "RotationSpeed": 180.0,
+      "JitterAmplitude": 0.1,
+      "Jitter": false,
+      "AutoBlock": false,
+      "EntityFilter": {
+        "Player": true,
+        "Monster": true,
+        "Animal": false,
+        "Villager": false,
+        "Invisibility": false,
+        "NPC": false
+      }
+    }
+  },
+  "AntiBot": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Matrix",
+      "Remove": true
+    }
+  },
+  "WTap": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "TPAura": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "SortMode": "Distance",
+      "CPS": 6.0,
+      "Range": 100.0,
+      "EntityFilter": {
+        "Player": true,
+        "Monster": true,
+        "Animal": false,
+        "Villager": false,
+        "Invisibility": false,
+        "NPC": false,
+        "Alive": true
+      }
+    }
+  },
+  "AutoPot": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 600.0,
+      "Heal": true,
+      "Speed": true
+    }
+  },
+  "HUD": {
+    "State": true,
+    "HideState": false,
+    "KeyCode": 33,
+    "Values": {
+      "ModListColorMode": "Static",
+      "ModListAnimationMode": "Scale",
+      "Font": "Default",
+      "ClientName": "SUNSET",
+      "RainbowTimeScale": 110.0,
+      "RainbowIndexScale": 100.0,
+      "RainbowStep": 3600.0,
+      "RainbowHueBegin": 0.0,
+      "RainbowHueEnd": 1.0,
+      "RainbowSaturation": 1.0,
+      "RainbowBrightness": 1.0,
+      "Information": true,
+      "Suffix": true,
+      "Potion": true,
+      "TabGui": false,
+      "ModList": true,
+      "ModListSort": true,
+      "ModListColor": -11796544,
+      "TabGuiColor": -7274245
+    }
+  },
+  "BarrierESP": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "NightVision": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Brightness": 1.0
+    }
+  },
+  "Particles": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Count": 2.0,
+      "Critical": true,
+      "Normal": false
+    }
+  },
+  "AntiInvisibility": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "AntiOpaqueBlock": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "NoHurtCam": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "CamaraNoClip": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "NameTags": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Font": "Default",
+      "Invisibility": false,
+      "DisplayName": true
+    }
+  },
+  "BlockHitting": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla",
+      "TranslateX": 0.0,
+      "TranslateY": 0.0,
+      "TranslateZ": 0.0
+    }
+  },
+  "SkinLayers": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "HurtColor": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Alpha": 0.3,
+      "Color": -65536
+    }
+  },
+  "DamageParticle": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "EnchantmentColor": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Color": -65536
+    }
+  },
+  "ChestESP": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "WaveyCapes": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "Sprint": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "Speed": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "BHop",
+      "OnGroundSpeed": 0.28,
+      "CustomMotionY": 0.42,
+      "CustomSpeed": 0.26,
+      "CustomTimer": 1.0,
+      "CustomFakeGround": false
+    }
+  },
+  "NoSlow": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla",
+      "Multiplier": 1.0
+    }
+  },
+  "Fly": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla",
+      "VanillaSpeed": 1.0,
+      "VanillaMotion": 1.0,
+      "OldAACOffsetY": 5.0,
+      "OldAACMotionY": 1.0
+    }
+  },
+  "TargetStrafe": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Radius": 1.0
+    }
+  },
+  "ScreenMove": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Inventory": true
+    }
+  },
+  "Jesus": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Solid",
+      "MotionY": 1.0
+    }
+  },
+  "HighJump": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "MotionY": 1.0
+    }
+  },
+  "IceSpeed": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Speed": 0.5
+    }
+  },
+  "Spider": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Jump",
+      "MotionSpeed": 0.1
+    }
+  },
+  "NoWeb": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla"
+    }
+  },
+  "LongJump": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla",
+      "VanillaSpeed": 1.0,
+      "AutoDisable": true
+    }
+  },
+  "FakeNoSprint": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "NoFall": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Vanilla"
+    }
+  },
+  "FastEat": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Packets": 3.0
+    }
+  },
+  "FastHeal": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Packets": 1.0,
+      "Health": 10.0
+    }
+  },
+  "AntiVoid": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "Packet",
+      "MotionY": 1.114514
+    }
+  },
+  "NoJumpDelay": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "FastPlace": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 3.0
+    }
+  },
+  "SafeWalk": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "NoLag": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Distance": 0.0
+    }
+  },
+  "AutoArmor": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 1000.0,
+      "Inventory": false
+    }
+  },
+  "InventoryManager": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 50.0,
+      "WhiteList": [
+        {
+          "ID": 256
+        },
+        {
+          "ID": 1
+        },
+        {
+          "ID": 257
+        },
+        {
+          "ID": 2
+        },
+        {
+          "ID": 258
+        },
+        {
+          "ID": 3
+        },
+        {
+          "ID": 4
+        },
+        {
+          "ID": 261
+        },
+        {
+          "ID": 5
+        },
+        {
+          "ID": 262
+        },
+        {
+          "ID": 6
+        },
+        {
+          "ID": 7
+        },
+        {
+          "ID": 267
+        },
+        {
+          "ID": 12
+        },
+        {
+          "ID": 268
+        },
+        {
+          "ID": 13
+        },
+        {
+          "ID": 269
+        },
+        {
+          "ID": 14
+        },
+        {
+          "ID": 270
+        },
+        {
+          "ID": 15
+        },
+        {
+          "ID": 271
+        },
+        {
+          "ID": 16
+        },
+        {
+          "ID": 272
+        },
+        {
+          "ID": 17
+        },
+        {
+          "ID": 273
+        },
+        {
+          "ID": 18
+        },
+        {
+          "ID": 274
+        },
+        {
+          "ID": 19
+        },
+        {
+          "ID": 275
+        },
+        {
+          "ID": 20
+        },
+        {
+          "ID": 276
+        },
+        {
+          "ID": 21
+        },
+        {
+          "ID": 277
+        },
+        {
+          "ID": 22
+        },
+        {
+          "ID": 278
+        },
+        {
+          "ID": 279
+        },
+        {
+          "ID": 24
+        },
+        {
+          "ID": 25
+        },
+        {
+          "ID": 27
+        },
+        {
+          "ID": 283
+        },
+        {
+          "ID": 28
+        },
+        {
+          "ID": 284
+        },
+        {
+          "ID": 29
+        },
+        {
+          "ID": 285
+        },
+        {
+          "ID": 30
+        },
+        {
+          "ID": 286
+        },
+        {
+          "ID": 31
+        },
+        {
+          "ID": 32
+        },
+        {
+          "ID": 33
+        },
+        {
+          "ID": 35
+        },
+        {
+          "ID": 37
+        },
+        {
+          "ID": 38
+        },
+        {
+          "ID": 39
+        },
+        {
+          "ID": 40
+        },
+        {
+          "ID": 41
+        },
+        {
+          "ID": 42
+        },
+        {
+          "ID": 298
+        },
+        {
+          "ID": 299
+        },
+        {
+          "ID": 44
+        },
+        {
+          "ID": 300
+        },
+        {
+          "ID": 45
+        },
+        {
+          "ID": 301
+        },
+        {
+          "ID": 46
+        },
+        {
+          "ID": 302
+        },
+        {
+          "ID": 47
+        },
+        {
+          "ID": 303
+        },
+        {
+          "ID": 48
+        },
+        {
+          "ID": 304
+        },
+        {
+          "ID": 49
+        },
+        {
+          "ID": 305
+        },
+        {
+          "ID": 50
+        },
+        {
+          "ID": 306
+        },
+        {
+          "ID": 307
+        },
+        {
+          "ID": 52
+        },
+        {
+          "ID": 308
+        },
+        {
+          "ID": 53
+        },
+        {
+          "ID": 309
+        },
+        {
+          "ID": 310
+        },
+        {
+          "ID": 311
+        },
+        {
+          "ID": 56
+        },
+        {
+          "ID": 312
+        },
+        {
+          "ID": 57
+        },
+        {
+          "ID": 313
+        },
+        {
+          "ID": 314
+        },
+        {
+          "ID": 315
+        },
+        {
+          "ID": 60
+        },
+        {
+          "ID": 316
+        },
+        {
+          "ID": 317
+        },
+        {
+          "ID": 65
+        },
+        {
+          "ID": 322
+        },
+        {
+          "ID": 66
+        },
+        {
+          "ID": 67
+        },
+        {
+          "ID": 69
+        },
+        {
+          "ID": 70
+        },
+        {
+          "ID": 72
+        },
+        {
+          "ID": 73
+        },
+        {
+          "ID": 76
+        },
+        {
+          "ID": 77
+        },
+        {
+          "ID": 78
+        },
+        {
+          "ID": 79
+        },
+        {
+          "ID": 80
+        },
+        {
+          "ID": 81
+        },
+        {
+          "ID": 82
+        },
+        {
+          "ID": 84
+        },
+        {
+          "ID": 85
+        },
+        {
+          "ID": 86
+        },
+        {
+          "ID": 87
+        },
+        {
+          "ID": 88
+        },
+        {
+          "ID": 89
+        },
+        {
+          "ID": 91
+        },
+        {
+          "ID": 95
+        },
+        {
+          "ID": 97
+        },
+        {
+          "ID": 98
+        },
+        {
+          "ID": 99
+        },
+        {
+          "ID": 100
+        },
+        {
+          "ID": 101
+        },
+        {
+          "ID": 102
+        },
+        {
+          "ID": 103
+        },
+        {
+          "ID": 106
+        },
+        {
+          "ID": 108
+        },
+        {
+          "ID": 109
+        },
+        {
+          "ID": 110
+        },
+        {
+          "ID": 111
+        },
+        {
+          "ID": 368
+        },
+        {
+          "ID": 112
+        },
+        {
+          "ID": 113
+        },
+        {
+          "ID": 114
+        },
+        {
+          "ID": 120
+        },
+        {
+          "ID": 121
+        },
+        {
+          "ID": 122
+        },
+        {
+          "ID": 123
+        },
+        {
+          "ID": 126
+        },
+        {
+          "ID": 128
+        },
+        {
+          "ID": 129
+        },
+        {
+          "ID": 131
+        },
+        {
+          "ID": 133
+        },
+        {
+          "ID": 134
+        },
+        {
+          "ID": 135
+        },
+        {
+          "ID": 136
+        },
+        {
+          "ID": 139
+        },
+        {
+          "ID": 397
+        },
+        {
+          "ID": 143
+        },
+        {
+          "ID": 147
+        },
+        {
+          "ID": 148
+        },
+        {
+          "ID": 152
+        },
+        {
+          "ID": 153
+        },
+        {
+          "ID": 155
+        },
+        {
+          "ID": 156
+        },
+        {
+          "ID": 157
+        },
+        {
+          "ID": 159
+        },
+        {
+          "ID": 160
+        },
+        {
+          "ID": 161
+        },
+        {
+          "ID": 162
+        },
+        {
+          "ID": 163
+        },
+        {
+          "ID": 164
+        },
+        {
+          "ID": 165
+        },
+        {
+          "ID": 166
+        },
+        {
+          "ID": 168
+        },
+        {
+          "ID": 169
+        },
+        {
+          "ID": 425
+        },
+        {
+          "ID": 170
+        },
+        {
+          "ID": 171
+        },
+        {
+          "ID": 172
+        },
+        {
+          "ID": 173
+        },
+        {
+          "ID": 174
+        },
+        {
+          "ID": 175
+        },
+        {
+          "ID": 179
+        },
+        {
+          "ID": 180
+        },
+        {
+          "ID": 182
+        },
+        {
+          "ID": 188
+        },
+        {
+          "ID": 189
+        },
+        {
+          "ID": 190
+        },
+        {
+          "ID": 191
+        },
+        {
+          "ID": 192
+        }
+      ],
+      "Inventory": false,
+      "BestArmor": true,
+      "BestSword": true,
+      "BestPickaxe": true,
+      "BestAxe": true,
+      "BestSpade": true,
+      "BestBow": true
+    }
+  },
+  "ChestStealer": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Delay": 100.0,
+      "CloseDelay": 100.0,
+      "ItemBlackList": [],
+      "MenuCheck": true,
+      "AutoClose": true
+    }
+  },
+  "SpeedMine": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Speed": 1.4,
+      "BlockHitDelay": 0.0,
+      "ResetBlockHitDelay": true
+    }
+  },
+  "Teams": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "PacketMonitor": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "Disabler": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Mode": "NoRotateInLag",
+      "C0FSendMode": "Delay",
+      "C0FMinSize": 1.0,
+      "C0FMaxSize": 5.0,
+      "C0FMinDelay": 100.0,
+      "C0FMaxDelay": 100.0
+    }
+  },
+  "AutoGoldApple": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "CheckMode": "Health",
+      "Health": 10.0,
+      "Delay": 100.0,
+      "Packets": 64.0
+    }
+  },
+  "EntityMonitor": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {}
+  },
+  "Debug": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "PathFinderTest": false
+    }
+  },
+  "AutoTool": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "SwitchBack": true
+    }
+  },
+  "PingSpoof": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Ping": 1000.0
+    }
+  },
+  "Scaffold": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "RotationMode": "Normal",
+      "PlaceTiming": "Post",
+      "TowerMode": "None",
+      "ItemMode": "Switch",
+      "SneakMode": "None",
+      "ExpandLength": 0.0,
+      "SearchDepth": 2.0,
+      "PlaceDelay": 0.0,
+      "AllowSprint": true,
+      "SafeWalk": false,
+      "KeepY": false
+    }
+  },
+  "Timer": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Speed": 1.0
+    }
+  },
+  "Nuker": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Radius": 3.0,
+      "AutoTool": true
+    }
+  },
+  "XRay": {
+    "State": false,
+    "HideState": false,
+    "KeyCode": 0,
+    "Values": {
+      "Alpha": 100.0,
+      "ESPRange": 100.0,
+      "ESP": true,
+      "ESPNoLimit": true,
+      "AntiCheat": false,
+      "Filter": {
+        "Coal": false,
+        "Iron": false,
+        "Gold": true,
+        "LapisLazuli": false,
+        "RedStone": false,
+        "Diamond": true,
+        "Emerald": false,
+        "Quartz": false,
+        "Water": false,
+        "Lava": false,
+        "Bedrock": false
+      }
+    }
+  }
+}

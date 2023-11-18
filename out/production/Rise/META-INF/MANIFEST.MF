@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Main-Class: Start
+Class-Path: icu4j-71.1.jar jdk-misc-3.Final.jar httpcore-4.4.15.jar plat
+ form-3.5.2.jar oshi-core-1.1.jar commons-compiler-3.1.9.jar reflections
+ -0.10.2.jar ViaRewind-2.0.3-SNAPSHOT.jar authlib-1.5.21.jar commons-cod
+ ec-1.15.jar discord-rpc.jar fastjson-2.0.12.jar imageboard-api-2.5.1.ja
+ r log4j-core-2.17.2.jar jutils-1.0.0.jar json-20220924.jar jsr305-3.0.2
+ .jar javassist-3.28.0-GA.jar log4j-api-2.17.2.jar ViaVersion-4.4.1.jar 
+ jopt-simple-5.0.4.jar httpclient-4.5.13.jar tools.jar nashorn-jdk8u265-
+ b01-x3.jar lombok-1.18.22.jar vecmath-1.5.2.jar lwjgl_util-2.9.4-nightl
+ y-20150209.jar lwjgl-2.9.4-nightly-20150209.jar codecwav-20101023.jar o
+ penauth-1.1.2.jar twitch-6.5.jar ViaBackwards-4.4.1.jar libraryjavasoun
+ d-20101123.jar codecjorbis-20101023.jar slf4j-api-1.7.32.jar commons-co
+ mpress-1.21.jar commons-io-2.11.0.jar gson-2.9.0.jar ViaSnakeYaml-1.30.
+ jar jna-5.11.0.jar janino-3.1.1.jar annotations.jar commons-logging-1.2
+ .jar netty-all-4.0.23.Final.jar guava-17.0.jar realms-1.7.48.jar WMI4Ja
+ va-1.6.3.jar jinput-2.0.9.jar librarylwjglopenal-20100824.jar Intent-HW
+ ID-API-v1.1.jar soundsystem-20120107.jar commons-lang3-3.12.0.jar
+
